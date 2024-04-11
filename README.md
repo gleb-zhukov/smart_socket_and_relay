@@ -1,14 +1,11 @@
-# ВНИМАНИЕ! Данный проект ныне считается устаревшим. Описание актуальных версий будет дополнено в репозиториях [профиля](https://github.com/zhukov-technologies).
-
-
-# Умная розетка и умное реле zhukov technologies
+# Умная розетка и умное реле
 Розетка и реле - устройства системы умного дома на основе API Telegram.
 
 ![DSC06524](https://user-images.githubusercontent.com/84660518/156652191-d5a9511f-c55e-4593-9be8-8c6b3b57945d.jpg)
 ![DSC06530](https://user-images.githubusercontent.com/84660518/156652329-725f3acb-2d90-4d71-899d-be960b87dbc5.jpg)
 
 ## Содержание
-- [Умная розетка и умное реле zhukov technologies](#socket)
+- [Умная розетка и умное реле](#socket)
 - [Подробнее о системе и коде](#code)
 - [Плата и основные компоненты](#components)
 - [Схема и работа печатной платы](#scheme)
@@ -17,7 +14,6 @@
 - - [Настройка розетки и реле в режим шлюза](#socket_setup)
 - [Обновление прошивки](#update)
 - [Ответственность](#responsibility)
-- [Контакты](#contacts)
 
 
 <a id="socket"></a>
@@ -143,9 +139,4 @@ t_httpUpdate_return ret = ESPhttpUpdate.update(client, "http://www.myserver.ru/s
 В прошивке розетки и реле используются библиотеки из проектов с открытым исходным кодом на основании лицензий, закреплёнными за авторами библиотек. Таким образом, работоспособность библиотек не может быть гарантирована. Также нет никаких гарантий, что устройство будет работать с вашей электросетью, и вы не получите ущерба во время эксплуатации устройства.
 
 [Лицензия GNU General Public License v3.0](https://github.com/zhukov-technologies/zhukov_socket_and_relay/blob/main/LICENSE.md)
-
-<a id="contacts"></a>
-# Контакты
-
-https://zhukov-tech.ru
 
